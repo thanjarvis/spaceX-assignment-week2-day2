@@ -1,1 +1,200 @@
 
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+    /* padding: 0px 10px; */
+
+}
+
+.image-logo{
+    width: 10vw;
+    height: 20px
+}
+
+.header-part1{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-part2{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.link:visited {
+    color: white;
+}
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.link2:visited{
+    color: beige;
+}
+.link2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+
+
+}
+
+.main-image{
+    width: 100%;
+    height: 60vw;
+    background-image: url('https://cdnph.upi.com/svc/sv/upi/1121557777756/2019/1/cc38eed2653298147f4e7cbcc0978bae/SpaceX-Falcon-Heavy-launch-for-Air-Force-set-June-22.jpg');
+    background-position: center;
+    background-size: cover;
+    top: 10vh
+}
+
+.image-info{
+    height: 12vh;
+    width: 100%;
+    background-color: #131718;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-direction: row;
+
+    
+}
+
+.image-info-content{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    align-self: center;
+    
+}
+.image-info-button{
+    height: 25px;
+    align-self: center;
+}
+
+.image-rotation{
+    width: 100%;
+    height: 7vh;
+    background-color: #21272b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.image-rotation-link{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.image-rotation-link-span{
+    font-weight: 100;
+}
+
+
+.mission-statement{
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission-statement-content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.more-info{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.more-info-link:visited{
+    color: black
+
+}
+
+.more-info-box{
+    height: 30vh;
+    width: 275px;
+    box-shadow: 0px 0px 10px 1px rgb(51, 51, 51);
+
+}
+
+.reusability{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+    
+
+}
+.commercial-crew{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.multiplanetary-life{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.footer{
+    height: 25px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-link{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.footer-link:visited{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.footer-link-div{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.copyright{
+    color: rgb(172, 172, 172);
+    font-size: 10px;
+}
