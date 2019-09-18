@@ -1,7 +1,7 @@
 
 header{
     width: 100%;
-    height: 10vh;
+    height: 90px;
     background-color: black;
     position: fixed;
     display: flex;
@@ -13,18 +13,19 @@ header{
 }
 
 .image-logo{
-    width: 10vw;
-    height: 20px
+    width: 150px;
+    height: 20px;
+    position: relative;
 }
 
 .header-part1{
-    width: 40vw;
+    width: 400px;
     display: flex;
     justify-content: space-between;
 }
 
 .header-part2{
-    width: 30vw;
+    width: 350px;
     display: flex;
     justify-content: space-between;
 
@@ -41,7 +42,7 @@ header{
 }
 
 .link2:visited{
-    color: beige;
+    color: #72787f;
 }
 .link2{
     font-family: Arial, Helvetica, sans-serif;
@@ -140,7 +141,7 @@ header{
 .more-info-box{
     height: 30vh;
     width: 275px;
-    box-shadow: 0px 0px 10px 1px rgb(51, 51, 51);
+    box-shadow: 0px 0px 4px .25px rgb(156, 156, 156);
 
 }
 
@@ -167,11 +168,17 @@ header{
 }
 
 .footer{
-    height: 25px;
+    height: 40px;
     background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+
+.footer-image{
+    height: 20px;
+    width: 90px;
 }
 
 .footer-link{
